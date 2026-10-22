@@ -1,0 +1,974 @@
+{
+ "case": "vibration",
+ "seed": 2003,
+ "lines": [
+  {
+   "t": 0.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 1,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 1.5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 2,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 2.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 3,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K -  0.0002  g"
+  },
+  {
+   "t": 3.5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 4,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 4.5,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0005  g"
+  },
+  {
+   "t": 5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 5.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 6,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 6.5,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 7,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 7.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 8,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 8.5,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 9,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 9.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 10,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 10.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0004  g"
+  },
+  {
+   "t": 11,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 11.5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K -  0.0002  g"
+  },
+  {
+   "t": 12,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 12.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 13,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 13.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 14,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 14.5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 15,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 20.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 21,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 21.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 22,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 22.5,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K -  0.0001  g"
+  },
+  {
+   "t": 23,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 23.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 24,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0001  g"
+  },
+  {
+   "t": 24.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 25,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0003  g"
+  },
+  {
+   "t": 25.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 26,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0005  g"
+  },
+  {
+   "t": 26.5,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0001  g"
+  },
+  {
+   "t": 27,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 27.5,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0001  g"
+  },
+  {
+   "t": 28,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 28.5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 29,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 29.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 30,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K -  0.0001  g"
+  },
+  {
+   "t": 30.5,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 31,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 31.5,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 32,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0004  g"
+  },
+  {
+   "t": 32.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 33,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 33.5,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 34,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 34.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 35,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0001  g"
+  },
+  {
+   "t": 35.5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 36,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 36.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 37,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 37.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 38,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 38.5,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 39,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 39.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 40,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 40.5,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 41,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 41.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 42,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0005  g"
+  },
+  {
+   "t": 42.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 43,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 43.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 44,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0002  g"
+  },
+  {
+   "t": 44.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 45,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 45.5,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0005  g"
+  },
+  {
+   "t": 46,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 46.5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 47,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K -  0.0001  g"
+  },
+  {
+   "t": 47.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 48,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 48.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 49,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0002  g"
+  },
+  {
+   "t": 49.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 50,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 50.5,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 51,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 51.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 52,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 52.5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 53,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 53.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 54,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 54.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 55,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0003  g"
+  },
+  {
+   "t": 55.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 56,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0004  g"
+  },
+  {
+   "t": 56.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 57,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 57.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 58,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0001  g"
+  },
+  {
+   "t": 58.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 59,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 59.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0003  g"
+  },
+  {
+   "t": 60,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 60.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 61,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 61.5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K -  0.0002  g"
+  },
+  {
+   "t": 62,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0001  g"
+  },
+  {
+   "t": 62.5,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0001  g"
+  },
+  {
+   "t": 63,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 63.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 64,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 64.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 65,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 65.5,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 66,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 66.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 67,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0002  g"
+  },
+  {
+   "t": 67.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 68,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 68.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 69,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 69.5,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0001  g"
+  },
+  {
+   "t": 70,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  }
+ ],
+ "calls": [
+  {
+   "t": 5,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 5
+   },
+   "result": "t = 0.0 s to 5.0 s, one line every 0.5 s:\nK*+  0.0000  g\nK*-  0.0003  g\nK*-  0.0003  g\nK*+  0.0002  g\nK*+  0.0000  g\nK -  0.0002  g\nK*-  0.0003  g\nK*+  0.0000  g\nK +  0.0005  g\nK*-  0.0003  g"
+  },
+  {
+   "t": 15,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 10
+   },
+   "result": "t = 5.0 s to 15.0 s, one line every 0.5 s:\nK*+  0.0000  g\nK*+  0.0002  g\nK*+  0.0002  g\nK*+  0.0000  g\nK*+  0.0003  g\nK*+  0.0002  g\nK*+  0.0005  g\nK*-  0.0002  g\nK*+  0.0004  g\nK*+  0.0001  g\nK +  0.0004  g\nK*+  0.0000  g\nK -  0.0002  g\nK*-  0.0002  g\nK*+  0.0004  g\nK*+  0.0001  g\nK*+  0.0000  g\nK*+  0.0005  g\nK*-  0.0003  g\nK*+  0.0003  g"
+  },
+  {
+   "t": 20,
+   "name": "ask_person",
+   "args": {
+    "request": "close_draft_shield",
+    "say": "The balance is still settling. Please close the draft shield doors gently, keep your hands away from the pan, and tell me when it's closed."
+   },
+   "result": "The draught shield doors are already closed."
+  },
+  {
+   "t": 40,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 20
+   },
+   "result": "t = 20.0 s to 40.0 s, one line every 0.5 s:\nK*+  0.0001  g\nK*+  0.0001  g\nK*+  0.0004  g\nK*+  0.0001  g\nK -  0.0001  g\nK*+  0.0002  g\nK*+  0.0000  g\nK*-  0.0001  g\nK*+  0.0001  g\nK +  0.0003  g\nK*+  0.0003  g\nK +  0.0005  g\nK*-  0.0001  g\nK*+  0.0000  g\nK*-  0.0001  g\nK*-  0.0002  g\nK*-  0.0002  g\nK*-  0.0002  g\nK*+  0.0000  g\nK -  0.0001  g\nK*+  0.0002  g\nK*+  0.0001  g\nK*+  0.0002  g\nK +  0.0004…"
+  },
+  {
+   "t": 70,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 30
+   },
+   "result": "t = 40.0 s to 70.0 s, one line every 0.5 s:\nK*+  0.0005  g\nK*-  0.0002  g\nK +  0.0001  g\nK +  0.0005  g\nK*+  0.0001  g\nK*+  0.0003  g\nK*+  0.0003  g\nK +  0.0002  g\nK*+  0.0003  g\nK*-  0.0002  g\nK +  0.0005  g\nK*+  0.0000  g\nK*-  0.0002  g\nK -  0.0001  g\nK*+  0.0001  g\nK*-  0.0003  g\nK*+  0.0004  g\nK +  0.0002  g\nK +  0.0001  g\nK*+  0.0005  g\nK*+  0.0005  g\nK*+  0.0002  g\nK*+  0.0001  g\nK*+  0.0004…"
+  },
+  {
+   "t": 70,
+   "name": "stop_test",
+   "args": {
+    "reason": "The balance never reached a stable state with the pan empty. Over about 70 seconds of watching, it kept flickering between K* (settling) and K (stable) and the display moved between roughly -0.0003 g and +0.0005 g. It cannot be zeroed, which requires a stable reading. Even if it were zeroed, the readings would not meet the SOP's requirement that every reading over the last 5 s be within ±1 d (0.1 mg), since the drift here is up to about ±5 d. The draft shield was already closed. Before retrying, check the balance for vibration, air currents, a level/warm-up issue, or nearby disturbance, and confirm the pan is clear. No test readings were recorded."
+   },
+   "result": "Test stopped."
+  }
+ ],
+ "records": [],
+ "issues": [],
+ "ended": {
+  "t": 70,
+  "kind": "stop",
+  "reason": "The balance never reached a stable state with the pan empty. Over about 70 seconds of watching, it kept flickering between K* (settling) and K (stable) and the display moved between roughly -0.0003 g and +0.0005 g. It cannot be zeroed, which requires a stable reading. Even if it were zeroed, the readings would not meet the SOP's requirement that every reading over the last 5 s be within ±1 d (0.1 mg), since the drift here is up to about ±5 d. The draft shield was already closed. Before retrying, check the balance for vibration, air currents, a level/warm-up issue, or nearby disturbance, and confirm the pan is clear. No test readings were recorded."
+ }
+}

@@ -1,0 +1,285 @@
+{
+ "case": "vibration",
+ "seed": 2003,
+ "lines": [
+  {
+   "t": 0.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 1,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 1.5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 2,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 2.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 3,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K -  0.0002  g"
+  },
+  {
+   "t": 3.5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 4,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 4.5,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0005  g"
+  },
+  {
+   "t": 5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 11.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 12,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 12.5,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 13,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 13.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 14,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 14.5,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 15,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 15.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 16,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 16.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0004  g"
+  },
+  {
+   "t": 17,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 17.5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K -  0.0002  g"
+  },
+  {
+   "t": 18,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 18.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 19,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 19.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 20,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 20.5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 21,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  }
+ ],
+ "calls": [
+  {
+   "t": 5,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 5
+   },
+   "result": "t = 0.0 s to 5.0 s, one line every 0.5 s:\nK*+  0.0000  g\nK*-  0.0003  g\nK*-  0.0003  g\nK*+  0.0002  g\nK*+  0.0000  g\nK -  0.0002  g\nK*-  0.0003  g\nK*+  0.0000  g\nK +  0.0005  g\nK*-  0.0003  g"
+  },
+  {
+   "t": 6,
+   "name": "ask_person",
+   "args": {
+    "request": "acclimatise_weight",
+    "say": "Thanks. Before we start: has the 100 g check weight been sitting in this room long enough to be at room temperature? Also, please close the draft shield doors."
+   },
+   "result": "It's been in this room all day."
+  },
+  {
+   "t": 11,
+   "name": "ask_person",
+   "args": {
+    "request": "close_draft_shield",
+    "say": "Good. Please make sure all the draft shield doors are fully closed, then tell me."
+   },
+   "result": "The draught shield doors are already closed."
+  },
+  {
+   "t": 21,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 10
+   },
+   "result": "t = 11.0 s to 21.0 s, one line every 0.5 s:\nK*+  0.0000  g\nK*+  0.0002  g\nK*+  0.0002  g\nK*+  0.0000  g\nK*+  0.0003  g\nK*+  0.0002  g\nK*+  0.0005  g\nK*-  0.0002  g\nK*+  0.0004  g\nK*+  0.0001  g\nK +  0.0004  g\nK*+  0.0000  g\nK -  0.0002  g\nK*-  0.0002  g\nK*+  0.0004  g\nK*+  0.0001  g\nK*+  0.0000  g\nK*+  0.0005  g\nK*-  0.0003  g\nK*+  0.0003  g"
+  },
+  {
+   "t": 26,
+   "name": "ask_person",
+   "args": {
+    "request": "check_environment",
+    "say": "The empty balance keeps drifting by up to half a milligram and won't settle. Could you look around it? Is there airflow from a vent, fan or fume hood, any vibration, is the bench steady, is anything touching the pan or the draft shield, and is the level bubble centred?"
+   },
+   "result": "There's a centrifuge running on this bench. It'll be on for another two hours, and the balance can't be moved."
+  },
+  {
+   "t": 26,
+   "name": "stop_test",
+   "args": {
+    "reason": "The balance can't settle with the pan empty. Over about 15 s it read between -0.0003 g and +0.0005 g, a spread of 8 d, and showed \"K*\" (settling) most of the time. The cause is a centrifuge running on the same bench, which will be on for another 2 hours, and the balance can't be moved. Under these conditions it can't be zeroed properly and no reading can meet the settling rule (stable, and within ±1 d for 5 s). The 3 d (0.3 mg) criterion is also smaller than this noise. No readings were recorded. Repeat the test once the centrifuge is off or the balance is on a vibration-free surface."
+   },
+   "result": "Test stopped."
+  },
+  {
+   "t": 26,
+   "name": "ask_person",
+   "args": {
+    "request": "other",
+    "say": "Thanks. I've stopped the test without a result. The centrifuge's vibration makes the empty balance swing by up to half a milligram, which is more than the test allows, so no reading could count as settled. Please put the check weight back in its case. We can run the test once the centrifuge has stopped."
+   },
+   "result": "The test has already ended."
+  }
+ ],
+ "records": [],
+ "issues": [],
+ "ended": {
+  "t": 26,
+  "kind": "stop",
+  "reason": "The balance can't settle with the pan empty. Over about 15 s it read between -0.0003 g and +0.0005 g, a spread of 8 d, and showed \"K*\" (settling) most of the time. The cause is a centrifuge running on the same bench, which will be on for another 2 hours, and the balance can't be moved. Under these conditions it can't be zeroed properly and no reading can meet the settling rule (stable, and within ±1 d for 5 s). The 3 d (0.3 mg) criterion is also smaller than this noise. No readings were recorded. Repeat the test once the centrifuge is off or the balance is on a vibration-free surface."
+ }
+}

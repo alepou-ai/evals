@@ -1,0 +1,1714 @@
+{
+ "case": "drift",
+ "seed": 2004,
+ "lines": [
+  {
+   "t": 0.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 1,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 1.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 2,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 2.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 3,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 3.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 4,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 4.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 7.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 8,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 8.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 9,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 9.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 10,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 15.5,
+   "value": 99.9996,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+ 99.9996  g"
+  },
+  {
+   "t": 16,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+100.0002  g"
+  },
+  {
+   "t": 16.5,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+100.0001  g"
+  },
+  {
+   "t": 17,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+100.0001  g"
+  },
+  {
+   "t": 17.5,
+   "value": 100,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0000  g"
+  },
+  {
+   "t": 18,
+   "value": 100,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0000  g"
+  },
+  {
+   "t": 18.5,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 19,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 19.5,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 20,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 20.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 21,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 21.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 22,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 22.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 23,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 23.5,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 24,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 24.5,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 25,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 25.5,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 26,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 26.5,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 27,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 27.5,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 28,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 28.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 29,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 29.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 30,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 30.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 31,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 31.5,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 32,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 32.5,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 33,
+   "value": 100.0008,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0008  g"
+  },
+  {
+   "t": 33.5,
+   "value": 100.0008,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0008  g"
+  },
+  {
+   "t": 34,
+   "value": 100.0008,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0008  g"
+  },
+  {
+   "t": 34.5,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 35,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 35.5,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 36,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 36.5,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 37,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 37.5,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 38,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 38.5,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 39,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 39.5,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 40,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 40.5,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 41,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 41.5,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 42,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 42.5,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 43,
+   "value": 100.0013,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0013  g"
+  },
+  {
+   "t": 43.5,
+   "value": 100.0013,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0013  g"
+  },
+  {
+   "t": 44,
+   "value": 100.0013,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0013  g"
+  },
+  {
+   "t": 44.5,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  },
+  {
+   "t": 45,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  },
+  {
+   "t": 45.5,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  },
+  {
+   "t": 46,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  },
+  {
+   "t": 46.5,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 47,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 47.5,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 48,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 48.5,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 49,
+   "value": 100.0016,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0016  g"
+  },
+  {
+   "t": 49.5,
+   "value": 100.0016,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0016  g"
+  },
+  {
+   "t": 50,
+   "value": 100.0016,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0016  g"
+  },
+  {
+   "t": 50.5,
+   "value": 100.0016,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0016  g"
+  },
+  {
+   "t": 51,
+   "value": 100.0017,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0017  g"
+  },
+  {
+   "t": 51.5,
+   "value": 100.0017,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0017  g"
+  },
+  {
+   "t": 52,
+   "value": 100.0017,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0017  g"
+  },
+  {
+   "t": 52.5,
+   "value": 100.0018,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0018  g"
+  },
+  {
+   "t": 53,
+   "value": 100.0018,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0018  g"
+  },
+  {
+   "t": 53.5,
+   "value": 100.0018,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0018  g"
+  },
+  {
+   "t": 54,
+   "value": 100.0018,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0018  g"
+  },
+  {
+   "t": 54.5,
+   "value": 100.0019,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0019  g"
+  },
+  {
+   "t": 55,
+   "value": 100.0019,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0019  g"
+  },
+  {
+   "t": 55.5,
+   "value": 100.0019,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0019  g"
+  },
+  {
+   "t": 56,
+   "value": 100.0019,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0019  g"
+  },
+  {
+   "t": 56.5,
+   "value": 100.0019,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0019  g"
+  },
+  {
+   "t": 57,
+   "value": 100.002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0020  g"
+  },
+  {
+   "t": 57.5,
+   "value": 100.002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0020  g"
+  },
+  {
+   "t": 58,
+   "value": 100.002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0020  g"
+  },
+  {
+   "t": 58.5,
+   "value": 100.002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0020  g"
+  },
+  {
+   "t": 59,
+   "value": 100.0021,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0021  g"
+  },
+  {
+   "t": 59.5,
+   "value": 100.0021,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0021  g"
+  },
+  {
+   "t": 60,
+   "value": 100.0021,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0021  g"
+  },
+  {
+   "t": 65.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 66,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 66.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 67,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 67.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 68,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 68.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 69,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 69.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 70,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 70.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 71,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 71.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 72,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 72.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 73,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 73.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 74,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 74.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 75,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 75.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 76,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 76.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 77,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 77.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 78,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 78.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 79,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 79.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 80,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 80.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 81,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 81.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 82,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 82.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 83,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 83.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 84,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 84.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 85,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 85.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 86,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 86.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 87,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 87.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 88,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 88.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 89,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 89.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 90,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 90.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 91,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 91.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 92,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 92.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 93,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 93.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 94,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 94.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 95,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 101.5,
+   "value": 99.9997,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+ 99.9997  g"
+  },
+  {
+   "t": 102,
+   "value": 100,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+100.0000  g"
+  },
+  {
+   "t": 102.5,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+100.0001  g"
+  },
+  {
+   "t": 103,
+   "value": 99.9999,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+ 99.9999  g"
+  },
+  {
+   "t": 103.5,
+   "value": 100,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0000  g"
+  },
+  {
+   "t": 104,
+   "value": 100,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0000  g"
+  },
+  {
+   "t": 104.5,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 105,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 105.5,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 106,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 106.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 107,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 107.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 108,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 108.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 109,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 109.5,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 110,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 110.5,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 111,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 111.5,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 112,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 112.5,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 113,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 113.5,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 114,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 114.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 115,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 115.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 116,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 116.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 117,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 117.5,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 118,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 118.5,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 119,
+   "value": 100.0008,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0008  g"
+  },
+  {
+   "t": 119.5,
+   "value": 100.0008,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0008  g"
+  },
+  {
+   "t": 120,
+   "value": 100.0008,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0008  g"
+  },
+  {
+   "t": 120.5,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 121,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 121.5,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 122,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 122.5,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 123,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 123.5,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 124,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 124.5,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 125,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 125.5,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 126,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 126.5,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 127,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 127.5,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 128,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 128.5,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 129,
+   "value": 100.0013,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0013  g"
+  },
+  {
+   "t": 129.5,
+   "value": 100.0013,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0013  g"
+  },
+  {
+   "t": 130,
+   "value": 100.0013,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0013  g"
+  },
+  {
+   "t": 130.5,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  },
+  {
+   "t": 131,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  }
+ ],
+ "calls": [
+  {
+   "t": 5,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 5
+   },
+   "result": "t = 0.0 s to 5.0 s, one line every 0.5 s:\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g"
+  },
+  {
+   "t": 7,
+   "name": "zero_balance",
+   "args": {},
+   "result": "Zero set."
+  },
+  {
+   "t": 10,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 3
+   },
+   "result": "t = 7.0 s to 10.0 s, one line every 0.5 s:\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g"
+  },
+  {
+   "t": 15,
+   "name": "ask_person",
+   "args": {
+    "request": "place_weight",
+    "say": "The balance is zeroed. Place the 100 g check weight in the centre of the pan, using your gloves, then take your hands away from the balance and keep the draft shield closed.",
+    "spot": "centre"
+   },
+   "result": "Done, it's on the centre."
+  },
+  {
+   "t": 25,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 10
+   },
+   "result": "t = 15.0 s to 25.0 s, one line every 0.5 s:\nK*+ 99.9996  g\nK*+100.0002  g\nK*+100.0001  g\nK*+100.0001  g\nK +100.0000  g\nK +100.0000  g\nK +100.0001  g\nK +100.0001  g\nK +100.0001  g\nK +100.0001  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0003  g\nK +100.0003  g\nK +100.0003  g\nK +100.0003  g\nK +100.0004  g"
+  },
+  {
+   "t": 40,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 15
+   },
+   "result": "t = 25.0 s to 40.0 s, one line every 0.5 s:\nK +100.0004  g\nK +100.0004  g\nK +100.0005  g\nK +100.0005  g\nK +100.0005  g\nK +100.0005  g\nK +100.0006  g\nK +100.0006  g\nK +100.0006  g\nK +100.0006  g\nK +100.0006  g\nK +100.0007  g\nK +100.0007  g\nK +100.0007  g\nK +100.0007  g\nK +100.0008  g\nK +100.0008  g\nK +100.0008  g\nK +100.0009  g\nK +100.0009  g\nK +100.0009  g\nK +100.0009  g\nK +100.0010  g\nK +100.0010…"
+  },
+  {
+   "t": 60,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 20
+   },
+   "result": "t = 40.0 s to 60.0 s, one line every 0.5 s:\nK +100.0011  g\nK +100.0012  g\nK +100.0012  g\nK +100.0012  g\nK +100.0012  g\nK +100.0013  g\nK +100.0013  g\nK +100.0013  g\nK +100.0014  g\nK +100.0014  g\nK +100.0014  g\nK +100.0014  g\nK +100.0015  g\nK +100.0015  g\nK +100.0015  g\nK +100.0015  g\nK +100.0015  g\nK +100.0016  g\nK +100.0016  g\nK +100.0016  g\nK +100.0016  g\nK +100.0017  g\nK +100.0017  g\nK +100.0017…"
+  },
+  {
+   "t": 65,
+   "name": "ask_person",
+   "args": {
+    "request": "remove_weight",
+    "say": "The reading is still drifting and has not settled. Please remove the 100 g check weight from the pan using your gloves, and set it on the bench away from the balance so it can acclimatise to room temperature. Keep the draft shield closed."
+   },
+   "result": "I've lifted it off."
+  },
+  {
+   "t": 95,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 30
+   },
+   "result": "t = 65.0 s to 95.0 s, one line every 0.5 s:\nK*+  0.0001  g\nK*-  0.0002  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000…"
+  },
+  {
+   "t": 96,
+   "name": "ask_person",
+   "args": {
+    "request": "acclimatise_weight",
+    "say": "The pan is empty and the balance is stable at zero. Leave the 100 g check weight on the bench, away from the balance, for about five minutes so it reaches room temperature. Do not touch it with bare hands. Tell me when the wait is done."
+   },
+   "result": "It's been in this room all day."
+  },
+  {
+   "t": 101,
+   "name": "ask_person",
+   "args": {
+    "request": "place_weight",
+    "say": "Please place the 100 g check weight back in the centre of the pan with your gloves on, then take your hands away and keep the draft shield closed.",
+    "spot": "centre"
+   },
+   "result": "Done, it's on the centre."
+  },
+  {
+   "t": 131,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 30
+   },
+   "result": "t = 101.0 s to 131.0 s, one line every 0.5 s:\nK*+ 99.9997  g\nK*+100.0000  g\nK*+100.0001  g\nK*+ 99.9999  g\nK +100.0000  g\nK +100.0000  g\nK +100.0001  g\nK +100.0001  g\nK +100.0001  g\nK +100.0001  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0003  g\nK +100.0003  g\nK +100.0003  g\nK +100.0003  g\nK +100.0004  g\nK +100.0004  g\nK +100.0004  g\nK +100.0005  g\nK +100.00…"
+  },
+  {
+   "t": 136,
+   "name": "ask_person",
+   "args": {
+    "request": "check_environment",
+    "say": "The reading is still creeping upward and will not settle. Please check the area around the balance: make sure the draft shield is fully closed, nothing is touching the bench or the balance, there is no air flow from a vent, a door or a person nearby, and the balance is level. Tell me what you find."
+   },
+   "result": "The air conditioning has just come on and the room is warming up. Nothing I can do about it today."
+  },
+  {
+   "t": 136,
+   "name": "stop_test",
+   "args": {
+    "reason": "The eccentricity test cannot be done properly right now. With the 100 g check weight on the centre of the pan, the balance never settled: it drifted steadily upward (about +0.0014 g over the last minute, roughly 14 d) and never met the requirement that every reading over the last 5 s be within ±1 d. Re-placing the weight after it had been at room temperature all day gave the same drift. The person reports the air conditioning has just come on and the room is warming, so the environment is changing and cannot be controlled today. No eccentricity readings were recorded. The test should be repeated once the room temperature has stabilised."
+   },
+   "result": "Test stopped."
+  }
+ ],
+ "records": [],
+ "issues": [],
+ "ended": {
+  "t": 136,
+  "kind": "stop",
+  "reason": "The eccentricity test cannot be done properly right now. With the 100 g check weight on the centre of the pan, the balance never settled: it drifted steadily upward (about +0.0014 g over the last minute, roughly 14 d) and never met the requirement that every reading over the last 5 s be within ±1 d. Re-placing the weight after it had been at room temperature all day gave the same drift. The person reports the air conditioning has just come on and the room is warming, so the environment is changing and cannot be controlled today. No eccentricity readings were recorded. The test should be repeated once the room temperature has stabilised."
+ }
+}

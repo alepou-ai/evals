@@ -1,0 +1,110 @@
+{
+ "case": "vibration",
+ "seed": 1003,
+ "lines": [
+  {
+   "t": 0.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 1,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 1.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 2,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 2.5,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0005  g"
+  },
+  {
+   "t": 3,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 3.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 4,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 4.5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  }
+ ],
+ "calls": [
+  {
+   "t": 5,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 5
+   },
+   "result": "t = 0.0 s to 5.0 s, one line every 0.5 s:\nK*+  0.0000  g\nK*+  0.0004  g\nK*+  0.0001  g\nK*+  0.0000  g\nK +  0.0005  g\nK*+  0.0000  g\nK*+  0.0000  g\nK*+  0.0005  g\nK*-  0.0002  g\nK*-  0.0002  g"
+  },
+  {
+   "t": 10,
+   "name": "ask_person",
+   "args": {
+    "request": "check_environment",
+    "say": "Before we start, please confirm the 100 g weight has been in the lab long enough to be at room temperature, and that the draft shield is closed with the pan empty. Tell me what you see."
+   },
+   "result": "There's a centrifuge running on this bench. It'll be on for another two hours, and the balance can't be moved."
+  },
+  {
+   "t": 10,
+   "name": "stop_test",
+   "args": {
+    "reason": "A centrifuge on the same bench will run for about two more hours, and the balance can't be moved. The empty pan never settled. The display kept showing \"K*\" and wandered between -0.0002 and +0.0005 g, which is more than ±1 d (0.1 mg). I couldn't zero the balance or take settled readings, so no readings were recorded. Rerun the eccentricity test once the centrifuge has stopped and the balance is stable."
+   },
+   "result": "Test stopped."
+  }
+ ],
+ "records": [],
+ "issues": [],
+ "ended": {
+  "t": 10,
+  "kind": "stop",
+  "reason": "A centrifuge on the same bench will run for about two more hours, and the balance can't be moved. The empty pan never settled. The display kept showing \"K*\" and wandered between -0.0002 and +0.0005 g, which is more than ±1 d (0.1 mg). I couldn't zero the balance or take settled readings, so no readings were recorded. Rerun the eccentricity test once the centrifuge has stopped and the balance is stable."
+ }
+}

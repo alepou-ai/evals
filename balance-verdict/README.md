@@ -50,7 +50,7 @@ Code grades every answer (`grade.mjs`). No model judges another.
 
 ## How we know the eval itself works
 
-`node evals/balance-verdict/grade.mjs --self-test` runs these checks:
+`node balance-verdict/grade.mjs --self-test` runs these checks:
 - **The answer key is written twice.** Each case's truth is labelled by hand and also worked out again from the readings by code. They must agree.
 - **Each case's app message really has its bug.** The app's working must give the verdict that the case needs.
 - **The verdict parser** is tested against 7 replies, including an uppercase word, a fenced code block, two JSON lines and no JSON at all.
@@ -68,9 +68,9 @@ Code grades every answer (`grade.mjs`). No model judges another.
 ## Running it
 
 ```
-node evals/balance-verdict/grade.mjs --self-test
-node evals/balance-verdict/run.mjs                 # 24 cases x 3 tries x 3 models = 216 calls
-node evals/balance-verdict/grade.mjs evals/balance-verdict/runs/<stamp>
+node balance-verdict/grade.mjs --self-test
+node balance-verdict/run.mjs                 # 24 cases x 3 tries x 3 models = 216 calls
+node balance-verdict/grade.mjs balance-verdict/runs/<stamp>
 ```
 
 `run.mjs` calls `claude -p` with fixed settings:

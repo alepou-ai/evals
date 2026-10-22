@@ -1,0 +1,619 @@
+{
+ "case": "drift",
+ "seed": 3004,
+ "lines": [
+  {
+   "t": 1.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 2,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 2.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 3,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 3.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 4,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 4.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 5.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 6,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 13.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 14,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 14.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 15,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 15.5,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 16,
+   "value": 0,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0000  g"
+  },
+  {
+   "t": 21.5,
+   "value": 99.9997,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+ 99.9997  g"
+  },
+  {
+   "t": 22,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+100.0002  g"
+  },
+  {
+   "t": 22.5,
+   "value": 99.9998,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+ 99.9998  g"
+  },
+  {
+   "t": 23,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+100.0002  g"
+  },
+  {
+   "t": 23.5,
+   "value": 100,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0000  g"
+  },
+  {
+   "t": 24,
+   "value": 100,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0000  g"
+  },
+  {
+   "t": 24.5,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 25,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 25.5,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 26,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 26.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 27,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 27.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 28,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 28.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 29,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 29.5,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 30,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 30.5,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 31,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 31.5,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 32,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 32.5,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 33,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 33.5,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 34,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 34.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 35,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 35.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 36,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 36.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 37,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 37.5,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 38,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 38.5,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 39,
+   "value": 100.0008,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0008  g"
+  },
+  {
+   "t": 44.5,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 45,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 45.5,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 46,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 46.5,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 47,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 47.5,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 48,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 48.5,
+   "value": 100.0012,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0012  g"
+  },
+  {
+   "t": 49,
+   "value": 100.0013,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0013  g"
+  },
+  {
+   "t": 49.5,
+   "value": 100.0013,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0013  g"
+  },
+  {
+   "t": 50,
+   "value": 100.0013,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0013  g"
+  },
+  {
+   "t": 50.5,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  },
+  {
+   "t": 51,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  },
+  {
+   "t": 51.5,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  },
+  {
+   "t": 52,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  },
+  {
+   "t": 52.5,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 53,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 53.5,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 54,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  }
+ ],
+ "calls": [
+  {
+   "t": 1,
+   "name": "ask_person",
+   "args": {
+    "request": "acclimatise_weight",
+    "say": "Thanks. Before we start, has the 100 g check weight been sitting in the lab long enough to reach room temperature? Please also close the draft shield."
+   },
+   "result": "It's been in this room all day."
+  },
+  {
+   "t": 6,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 5
+   },
+   "result": "t = 1.0 s to 6.0 s, one line every 0.5 s:\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g"
+  },
+  {
+   "t": 11,
+   "name": "ask_person",
+   "args": {
+    "request": "close_draft_shield",
+    "say": "Good. Is the draft shield closed? If not, please close it now."
+   },
+   "result": "The draught shield doors are already closed."
+  },
+  {
+   "t": 13,
+   "name": "zero_balance",
+   "args": {},
+   "result": "Zero set."
+  },
+  {
+   "t": 16,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 3
+   },
+   "result": "t = 13.0 s to 16.0 s, one line every 0.5 s:\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g\nK +  0.0000  g"
+  },
+  {
+   "t": 21,
+   "name": "ask_person",
+   "args": {
+    "request": "place_weight",
+    "spot": "centre",
+    "say": "The balance is zeroed. Please put the 100 g weight in the centre of the pan, close the draft shield, and step back a little."
+   },
+   "result": "Done, it's on the centre."
+  },
+  {
+   "t": 29,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 8
+   },
+   "result": "t = 21.0 s to 29.0 s, one line every 0.5 s:\nK*+ 99.9997  g\nK*+100.0002  g\nK*+ 99.9998  g\nK*+100.0002  g\nK +100.0000  g\nK +100.0000  g\nK +100.0001  g\nK +100.0001  g\nK +100.0001  g\nK +100.0001  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0003  g"
+  },
+  {
+   "t": 39,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 10
+   },
+   "result": "t = 29.0 s to 39.0 s, one line every 0.5 s:\nK +100.0003  g\nK +100.0003  g\nK +100.0003  g\nK +100.0004  g\nK +100.0004  g\nK +100.0004  g\nK +100.0005  g\nK +100.0005  g\nK +100.0005  g\nK +100.0005  g\nK +100.0006  g\nK +100.0006  g\nK +100.0006  g\nK +100.0006  g\nK +100.0006  g\nK +100.0007  g\nK +100.0007  g\nK +100.0007  g\nK +100.0007  g\nK +100.0008  g"
+  },
+  {
+   "t": 44,
+   "name": "ask_person",
+   "args": {
+    "request": "check_environment",
+    "say": "The reading keeps drifting upward and won't settle. Can you check what's around the balance: any air vents, sunlight, or heat sources nearby, the bench stable? And did the weight sit somewhere warm, like by a window or in your hand, before you put it on?"
+   },
+   "result": "The air conditioning has just come on and the room is warming up. Nothing I can do about it today."
+  },
+  {
+   "t": 54,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 10
+   },
+   "result": "t = 44.0 s to 54.0 s, one line every 0.5 s:\nK +100.0011  g\nK +100.0011  g\nK +100.0011  g\nK +100.0011  g\nK +100.0011  g\nK +100.0012  g\nK +100.0012  g\nK +100.0012  g\nK +100.0012  g\nK +100.0013  g\nK +100.0013  g\nK +100.0013  g\nK +100.0014  g\nK +100.0014  g\nK +100.0014  g\nK +100.0014  g\nK +100.0015  g\nK +100.0015  g\nK +100.0015  g\nK +100.0015  g"
+  },
+  {
+   "t": 59,
+   "name": "ask_person",
+   "args": {
+    "request": "remove_weight",
+    "say": "Thanks. The reading has drifted more than a milligram and still isn't settling, so we can't run this test properly right now. Please take the weight off the pan, put it back in its case, and close the draft shield. We'll stop here and do it again once the room temperature is steady."
+   },
+   "result": "I've lifted it off."
+  },
+  {
+   "t": 59,
+   "name": "stop_test",
+   "args": {
+    "reason": "No settled reading possible. With the 100 g weight at the centre, the display rose steadily from 100.0000 g to 100.0015 g in about 30 s (about 0.1 mg every 2 s). It showed \"K\" (stable) the whole time, but no 5 s window stayed within ±1 d (0.1 mg). The operator says the air conditioning just came on and the room is warming up, so the temperature isn't stable. No readings were recorded. Rerun the test once the room temperature has been steady for a while and the weight and balance have acclimatised."
+   },
+   "result": "Test stopped."
+  }
+ ],
+ "records": [],
+ "issues": [],
+ "ended": {
+  "t": 59,
+  "kind": "stop",
+  "reason": "No settled reading possible. With the 100 g weight at the centre, the display rose steadily from 100.0000 g to 100.0015 g in about 30 s (about 0.1 mg every 2 s). It showed \"K\" (stable) the whole time, but no 5 s window stayed within ±1 d (0.1 mg). The operator says the air conditioning just came on and the room is warming up, so the temperature isn't stable. No readings were recorded. Rerun the test once the room temperature has been steady for a while and the weight and balance have acclimatised."
+ }
+}

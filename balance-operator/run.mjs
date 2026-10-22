@@ -4,6 +4,8 @@
 //
 //   node evals/balance-operator/run.mjs [--models claude-sonnet-5-5,...] [--trials 3]
 //        [--cases drift,carats] [--concurrency 4] [--effort medium] [--max-turns 80]
+//        [--resume runs/<stamp>]   finish an interrupted run: same settings and seeds,
+//                                  only the runs without a line in answers.jsonl
 //
 // Fixed settings for every run: the eval's system prompt instead of Claude Code's, no
 // built-in tools, only the balance's MCP tools (allowed without prompting), no project
@@ -42,7 +44,13 @@ function runOne(binary, cwd, { model, effort, maxTurns, mcpConfig, prompt }) {
     "--system-prompt", SYSTEM_PROMPT, "--output-format", "json"];
   return new Promise((resolve) => {
     const started = Date.now();
-    const child = spawn(binary, args, { cwd, windowsHide: true });
+    let child;
+    // Windows can refuse a spawn outright (spawn UNKNOWN, e.g. while the CLI updates
+    // itself); that is the harness failing, so say so instead of crashing the run.
+    try { child = spawn(binary, args, { cwd, windowsHide: true }); } catch (error) {
+      resolve({ code: null, ms: 0, parsed: null, error: `spawn failed: ${error.code || error.message}` });
+      return;
+    }
     let out = "", err = "";
     child.on("error", (error) => { err += String(error); });
     child.stdin.on("error", (error) => { err += String(error); });
@@ -68,20 +76,31 @@ async function main() {
   const only = option("cases", "");
   const cases = only ? CASES.filter((c) => only.split(",").includes(c.id)) : CASES;
 
-  const stamp = new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19);
-  const runDir = path.join(here, "runs", stamp);
+  const resume = option("resume", "");
+  const runDir = resume ? path.resolve(here, resume) : path.join(here, "runs", new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19));
   fs.mkdirSync(path.join(runDir, "logs"), { recursive: true });
   const work = fs.mkdtempSync(path.join(os.tmpdir(), "balance-operator-"));
   const binary = claudeBinary();
-  fs.writeFileSync(path.join(runDir, "settings.json"), JSON.stringify({
-    models, trials, effort, maxTurns, concurrency, cases: cases.map((c) => c.id), systemPrompt: SYSTEM_PROMPT,
-    cli: "claude -p --tools \"\" --mcp-config <balance> --strict-mcp-config --allowedTools mcp__balance --setting-sources project --no-session-persistence --output-format json",
-    startedAt: new Date().toISOString(),
-  }, null, 2));
+  const settingsFile = path.join(runDir, "settings.json");
+  let settings;
+  if (resume) {
+    settings = JSON.parse(fs.readFileSync(settingsFile, "utf8"));
+    settings.resumedAt = [...(settings.resumedAt || []), new Date().toISOString()];
+  } else {
+    settings = { models, trials, effort, maxTurns, concurrency, cases: cases.map((c) => c.id), systemPrompt: SYSTEM_PROMPT,
+      cli: "claude -p --tools \"\" --mcp-config <balance> --strict-mcp-config --allowedTools mcp__balance --setting-sources project --no-session-persistence --output-format json",
+      startedAt: new Date().toISOString() };
+  }
+  fs.writeFileSync(settingsFile, JSON.stringify(settings, null, 2));
 
+  const answersFile = path.join(runDir, "answers.jsonl");
+  const finished = new Set(fs.existsSync(answersFile) ? fs.readFileSync(answersFile, "utf8").trim().split("\n").filter(Boolean)
+    .map((line) => JSON.parse(line)).filter((a) => !a.error).map((a) => `${a.model}|${a.case}|${a.trial}`) : []);
   const jobs = [];
-  for (let trial = 1; trial <= trials; trial++) for (const testCase of cases) for (const model of models) jobs.push({ model, testCase, trial });
-  const answers = fs.openSync(path.join(runDir, "answers.jsonl"), "a");
+  for (let trial = 1; trial <= settings.trials; trial++) for (const testCase of CASES.filter((c) => settings.cases.includes(c.id))) for (const model of settings.models) {
+    if (!finished.has(`${model}|${testCase.id}|${trial}`)) jobs.push({ model, testCase, trial });
+  }
+  const answers = fs.openSync(answersFile, "a");
   let next = 0, done = 0;
   async function worker() {
     while (next < jobs.length) {
@@ -93,10 +112,16 @@ async function main() {
       const mcpConfig = path.join(work, `${name}.mcp.json`);
       fs.writeFileSync(mcpConfig, JSON.stringify({ mcpServers: { balance: { type: "stdio", command: process.execPath, args: [path.join(here, "server.mjs")],
         env: { BALANCE_CASE: testCase.id, BALANCE_SEED: String(seed), BALANCE_LOG: path.join(runDir, log) } } } }));
-      const result = await runOne(binary, work, { model, effort, maxTurns, mcpConfig, prompt: taskMessage(testCase) });
+      // A run the harness failed to start is tried again (up to 3 attempts) after a pause.
+      let result, attempts = 0;
+      do {
+        if (attempts) await new Promise((wake) => setTimeout(wake, 15_000));
+        result = await runOne(binary, work, { model, effort: settings.effort, maxTurns: settings.maxTurns, mcpConfig, prompt: taskMessage(testCase) });
+        attempts++;
+      } while (!result.parsed && /^spawn failed/.test(result.error || "") && attempts < 3);
       const p = result.parsed;
       fs.writeSync(answers, JSON.stringify({
-        model, case: testCase.id, trial, seed, effort, log: log.replace(/\\/g, "/"), ms: result.ms, exit: result.code,
+        model, case: testCase.id, trial, seed, effort: settings.effort, attempts, log: log.replace(/\\/g, "/"), ms: result.ms, exit: result.code,
         reply: p?.result ?? null, isError: p?.is_error ?? null, turns: p?.num_turns ?? null, stop: p?.terminal_reason ?? p?.subtype ?? null,
         error: result.error, answeredBy: Object.keys(p?.modelUsage || {}), listPriceUsd: p?.total_cost_usd ?? null,
       }) + "\n");

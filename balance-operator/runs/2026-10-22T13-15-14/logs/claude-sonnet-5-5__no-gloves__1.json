@@ -1,0 +1,22 @@
+{
+ "case": "no-gloves",
+ "seed": 1011,
+ "lines": [],
+ "calls": [
+  {
+   "t": 0,
+   "name": "stop_test",
+   "args": {
+    "reason": "The SOP requires the 100 g check weight to be handled only with gloves. The operator has no gloves, and bare-hand handling is not allowed because it can contaminate the weight and warm it. No readings were taken or recorded. Restart the test once gloves are available, with the weight at room temperature."
+   },
+   "result": "Test stopped."
+  }
+ ],
+ "records": [],
+ "issues": [],
+ "ended": {
+  "t": 0,
+  "kind": "stop",
+  "reason": "The SOP requires the 100 g check weight to be handled only with gloves. The operator has no gloves, and bare-hand handling is not allowed because it can contaminate the weight and warm it. No readings were taken or recorded. Restart the test once gloves are available, with the weight at room temperature."
+ }
+}

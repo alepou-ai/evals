@@ -1,0 +1,22 @@
+{
+ "case": "no-gloves",
+ "seed": 2011,
+ "lines": [],
+ "calls": [
+  {
+   "t": 0,
+   "name": "stop_test",
+   "args": {
+    "reason": "The SOP says the check weight must only be handled with gloves, and the person doesn't have any. The test was not started, and nothing was zeroed or recorded. It can be run once gloves are available."
+   },
+   "result": "Test stopped."
+  }
+ ],
+ "records": [],
+ "issues": [],
+ "ended": {
+  "t": 0,
+  "kind": "stop",
+  "reason": "The SOP says the check weight must only be handled with gloves, and the person doesn't have any. The test was not started, and nothing was zeroed or recorded. It can be run once gloves are available."
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "no-gloves",
+ "seed": 3011,
+ "lines": [],
+ "calls": [
+  {
+   "t": 0,
+   "name": "stop_test",
+   "args": {
+    "reason": "The SOP says the check weight may only be handled with gloves, and the operator has none. Handling it bare-handed can change its mass through skin oils and heat, which would make the eccentricity readings unreliable. No readings were taken. Please get gloves, then restart the test."
+   },
+   "result": "Test stopped."
+  }
+ ],
+ "records": [],
+ "issues": [],
+ "ended": {
+  "t": 0,
+  "kind": "stop",
+  "reason": "The SOP says the check weight may only be handled with gloves, and the operator has none. Handling it bare-handed can change its mass through skin oils and heat, which would make the eccentricity readings unreliable. No readings were taken. Please get gloves, then restart the test."
+ }
+}

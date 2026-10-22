@@ -1,0 +1,35 @@
+{
+  "models": [
+    "claude-sonnet-5-5",
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+  ],
+  "trials": 3,
+  "effort": "medium",
+  "maxTurns": 80,
+  "concurrency": 5,
+  "cases": [
+    "clean-pass",
+    "clean-fail",
+    "vibration",
+    "drift",
+    "zero-return",
+    "touching",
+    "wrong-weight",
+    "cable",
+    "carats",
+    "skip-pressure",
+    "no-gloves",
+    "cold-weight",
+    "semi-micro",
+    "draught"
+  ],
+  "systemPrompt": "You are Claude, the assistant in Alepou Spatial: a person in a lab wears a mixed-reality headset, and you run instrument procedures with them through tools. You can read and zero the balance yourself; anything physical, the person does when you ask with ask_person. What you say with ask_person is spoken in the headset. Messages that start with an app's name in square brackets come from that app.",
+  "cli": "claude -p --tools \"\" --mcp-config <balance> --strict-mcp-config --allowedTools mcp__balance --setting-sources project --no-session-persistence --output-format json",
+  "startedAt": "2026-10-22T13:15:14.197Z",
+  "resumedAt": [
+    "2026-10-22T13:30:19.776Z",
+    "2026-10-22T13:41:18.891Z",
+    "2026-10-22T13:43:52.730Z"
+  ]
+}

@@ -1,0 +1,719 @@
+{
+ "case": "drift",
+ "seed": 1004,
+ "lines": [
+  {
+   "t": 0.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 1,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 1.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 2,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 2.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 3,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 3.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 4,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 4.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 13.5,
+   "value": 99.9995,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+ 99.9995  g"
+  },
+  {
+   "t": 14,
+   "value": 100,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+100.0000  g"
+  },
+  {
+   "t": 14.5,
+   "value": 99.9999,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+ 99.9999  g"
+  },
+  {
+   "t": 15,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+100.0001  g"
+  },
+  {
+   "t": 15.5,
+   "value": 100,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0000  g"
+  },
+  {
+   "t": 16,
+   "value": 100,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0000  g"
+  },
+  {
+   "t": 16.5,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 17,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 17.5,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 18,
+   "value": 100.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0001  g"
+  },
+  {
+   "t": 18.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 19,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 19.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 20,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 20.5,
+   "value": 100.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0002  g"
+  },
+  {
+   "t": 21,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 21.5,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 22,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 22.5,
+   "value": 100.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0003  g"
+  },
+  {
+   "t": 23,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 23.5,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 24,
+   "value": 100.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0004  g"
+  },
+  {
+   "t": 24.5,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 25,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 25.5,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 26,
+   "value": 100.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0005  g"
+  },
+  {
+   "t": 26.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 27,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 27.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 28,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 28.5,
+   "value": 100.0006,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0006  g"
+  },
+  {
+   "t": 29,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 29.5,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 30,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 30.5,
+   "value": 100.0007,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0007  g"
+  },
+  {
+   "t": 31,
+   "value": 100.0008,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0008  g"
+  },
+  {
+   "t": 31.5,
+   "value": 100.0008,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0008  g"
+  },
+  {
+   "t": 32,
+   "value": 100.0008,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0008  g"
+  },
+  {
+   "t": 32.5,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 33,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 33.5,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 34,
+   "value": 100.0009,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0009  g"
+  },
+  {
+   "t": 34.5,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 35,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 35.5,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 36,
+   "value": 100.001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0010  g"
+  },
+  {
+   "t": 36.5,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 37,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 37.5,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 38,
+   "value": 100.0011,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0011  g"
+  },
+  {
+   "t": 43.5,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  },
+  {
+   "t": 44,
+   "value": 100.0014,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0014  g"
+  },
+  {
+   "t": 44.5,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 45,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 45.5,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 46,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 46.5,
+   "value": 100.0015,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0015  g"
+  },
+  {
+   "t": 47,
+   "value": 100.0016,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0016  g"
+  },
+  {
+   "t": 47.5,
+   "value": 100.0016,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0016  g"
+  },
+  {
+   "t": 48,
+   "value": 100.0016,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0016  g"
+  },
+  {
+   "t": 48.5,
+   "value": 100.0016,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0016  g"
+  },
+  {
+   "t": 49,
+   "value": 100.0017,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0017  g"
+  },
+  {
+   "t": 49.5,
+   "value": 100.0017,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0017  g"
+  },
+  {
+   "t": 50,
+   "value": 100.0017,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0017  g"
+  },
+  {
+   "t": 50.5,
+   "value": 100.0018,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0018  g"
+  },
+  {
+   "t": 51,
+   "value": 100.0018,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0018  g"
+  },
+  {
+   "t": 51.5,
+   "value": 100.0018,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0018  g"
+  },
+  {
+   "t": 52,
+   "value": 100.0018,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0018  g"
+  },
+  {
+   "t": 52.5,
+   "value": 100.0019,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0019  g"
+  },
+  {
+   "t": 53,
+   "value": 100.0019,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0019  g"
+  },
+  {
+   "t": 53.5,
+   "value": 100.0019,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0019  g"
+  },
+  {
+   "t": 54,
+   "value": 100.0019,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0019  g"
+  },
+  {
+   "t": 54.5,
+   "value": 100.0019,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0019  g"
+  },
+  {
+   "t": 55,
+   "value": 100.002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0020  g"
+  },
+  {
+   "t": 55.5,
+   "value": 100.002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0020  g"
+  },
+  {
+   "t": 56,
+   "value": 100.002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0020  g"
+  },
+  {
+   "t": 56.5,
+   "value": 100.002,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0020  g"
+  },
+  {
+   "t": 57,
+   "value": 100.0021,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0021  g"
+  },
+  {
+   "t": 57.5,
+   "value": 100.0021,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0021  g"
+  },
+  {
+   "t": 58,
+   "value": 100.0021,
+   "unit": "g",
+   "stable": true,
+   "text": "K +100.0021  g"
+  }
+ ],
+ "calls": [
+  {
+   "t": 5,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 5
+   },
+   "result": "t = 0.0 s to 5.0 s, one line every 0.5 s:\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g\nK +  0.0001  g"
+  },
+  {
+   "t": 7,
+   "name": "zero_balance",
+   "args": {},
+   "result": "Zero set."
+  },
+  {
+   "t": 8,
+   "name": "ask_person",
+   "args": {
+    "request": "acclimatise_weight",
+    "say": "Before we start, please confirm the 100 g weight has been in the lab long enough to be at room temperature. If it hasn't, let it acclimatise first and tell me."
+   },
+   "result": "It's been in this room all day."
+  },
+  {
+   "t": 13,
+   "name": "ask_person",
+   "args": {
+    "request": "place_weight",
+    "say": "Thanks. Please place the 100 g weight in the centre of the pan, then close the draft shield.",
+    "spot": "centre"
+   },
+   "result": "Done, it's on the centre."
+  },
+  {
+   "t": 23,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 10
+   },
+   "result": "t = 13.0 s to 23.0 s, one line every 0.5 s:\nK*+ 99.9995  g\nK*+100.0000  g\nK*+ 99.9999  g\nK*+100.0001  g\nK +100.0000  g\nK +100.0000  g\nK +100.0001  g\nK +100.0001  g\nK +100.0001  g\nK +100.0001  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0002  g\nK +100.0003  g\nK +100.0003  g\nK +100.0003  g\nK +100.0003  g\nK +100.0004  g"
+  },
+  {
+   "t": 38,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 15
+   },
+   "result": "t = 23.0 s to 38.0 s, one line every 0.5 s:\nK +100.0004  g\nK +100.0004  g\nK +100.0005  g\nK +100.0005  g\nK +100.0005  g\nK +100.0005  g\nK +100.0006  g\nK +100.0006  g\nK +100.0006  g\nK +100.0006  g\nK +100.0006  g\nK +100.0007  g\nK +100.0007  g\nK +100.0007  g\nK +100.0007  g\nK +100.0008  g\nK +100.0008  g\nK +100.0008  g\nK +100.0009  g\nK +100.0009  g\nK +100.0009  g\nK +100.0009  g\nK +100.0010  g\nK +100.0010…"
+  },
+  {
+   "t": 43,
+   "name": "ask_person",
+   "args": {
+    "request": "check_environment",
+    "say": "The reading keeps creeping upward. Please check the draft shield is fully closed, and look for draughts, vibration, air conditioning, or anything touching the pan or weight. Tell me what you see."
+   },
+   "result": "The air conditioning has just come on and the room is warming up. Nothing I can do about it today."
+  },
+  {
+   "t": 58,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 15
+   },
+   "result": "t = 43.0 s to 58.0 s, one line every 0.5 s:\nK +100.0014  g\nK +100.0014  g\nK +100.0015  g\nK +100.0015  g\nK +100.0015  g\nK +100.0015  g\nK +100.0015  g\nK +100.0016  g\nK +100.0016  g\nK +100.0016  g\nK +100.0016  g\nK +100.0017  g\nK +100.0017  g\nK +100.0017  g\nK +100.0018  g\nK +100.0018  g\nK +100.0018  g\nK +100.0018  g\nK +100.0019  g\nK +100.0019  g\nK +100.0019  g\nK +100.0019  g\nK +100.0019  g\nK +100.0020…"
+  },
+  {
+   "t": 58,
+   "name": "stop_test",
+   "args": {
+    "reason": "The centre reading never settled. It drifted steadily upward from 100.0000 g to 100.0021 g over about 45 s, and the balance's own stable flag stayed on throughout. That is far outside the ±1 d (0.0001 g) settling requirement. The cause is the air conditioning, which has just come on and is warming the room. The person can't change that today. The drift is bigger than the 3 d (0.3 mg) criterion, so no eccentricity result would mean anything. No readings were recorded. Repeat the test once the room temperature has stabilised."
+   },
+   "result": "Test stopped."
+  }
+ ],
+ "records": [],
+ "issues": [],
+ "ended": {
+  "t": 58,
+  "kind": "stop",
+  "reason": "The centre reading never settled. It drifted steadily upward from 100.0000 g to 100.0021 g over about 45 s, and the balance's own stable flag stayed on throughout. That is far outside the ±1 d (0.0001 g) settling requirement. The cause is the air conditioning, which has just come on and is warming the room. The person can't change that today. The drift is bigger than the 3 d (0.3 mg) criterion, so no eccentricity result would mean anything. No readings were recorded. Repeat the test once the room temperature has stabilised."
+ }
+}

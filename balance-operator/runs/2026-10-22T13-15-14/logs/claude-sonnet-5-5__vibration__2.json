@@ -1,0 +1,267 @@
+{
+ "case": "vibration",
+ "seed": 2003,
+ "lines": [
+  {
+   "t": 0.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 1,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 1.5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 2,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 2.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 3,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K -  0.0002  g"
+  },
+  {
+   "t": 3.5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 4,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 4.5,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0005  g"
+  },
+  {
+   "t": 5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 15.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 16,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 16.5,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 17,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 17.5,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  },
+  {
+   "t": 18,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  },
+  {
+   "t": 18.5,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 19,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 19.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 20,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 20.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0004  g"
+  },
+  {
+   "t": 21,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 21.5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": true,
+   "text": "K -  0.0002  g"
+  },
+  {
+   "t": 22,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 22.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 23,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 23.5,
+   "value": 0,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0000  g"
+  },
+  {
+   "t": 24,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 24.5,
+   "value": -0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0003  g"
+  },
+  {
+   "t": 25,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0003  g"
+  }
+ ],
+ "calls": [
+  {
+   "t": 5,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 5
+   },
+   "result": "t = 0.0 s to 5.0 s, one line every 0.5 s:\nK*+  0.0000  g\nK*-  0.0003  g\nK*-  0.0003  g\nK*+  0.0002  g\nK*+  0.0000  g\nK -  0.0002  g\nK*-  0.0003  g\nK*+  0.0000  g\nK +  0.0005  g\nK*-  0.0003  g"
+  },
+  {
+   "t": 10,
+   "name": "ask_person",
+   "args": {
+    "request": "close_draft_shield",
+    "say": "The balance is drifting with the pan empty. Please make sure the draft shield doors are fully closed, and keep still while I watch it."
+   },
+   "result": "The draught shield doors are already closed."
+  },
+  {
+   "t": 15,
+   "name": "ask_person",
+   "args": {
+    "request": "check_environment",
+    "say": "Please check around the balance for anything causing disturbance: vibration, air draughts from vents or doors, people moving nearby, or anything touching the bench or the pan. Tell me what you see."
+   },
+   "result": "There's a centrifuge running on this bench. It'll be on for another two hours, and the balance can't be moved."
+  },
+  {
+   "t": 25,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 10
+   },
+   "result": "t = 15.0 s to 25.0 s, one line every 0.5 s:\nK*+  0.0000  g\nK*+  0.0002  g\nK*+  0.0002  g\nK*+  0.0000  g\nK*+  0.0003  g\nK*+  0.0002  g\nK*+  0.0005  g\nK*-  0.0002  g\nK*+  0.0004  g\nK*+  0.0001  g\nK +  0.0004  g\nK*+  0.0000  g\nK -  0.0002  g\nK*-  0.0002  g\nK*+  0.0004  g\nK*+  0.0001  g\nK*+  0.0000  g\nK*+  0.0005  g\nK*-  0.0003  g\nK*+  0.0003  g"
+  },
+  {
+   "t": 25,
+   "name": "stop_test",
+   "args": {
+    "reason": "The balance can't settle with the pan empty. The reading wanders by up to about ±0.5 mg and mostly shows \"K*\". A centrifuge is running on the same bench for about two more hours, and the balance can't be moved. Settled readings at 0.1 mg readability aren't possible under these conditions, so no zeroing or readings were taken and nothing was recorded. Repeat the eccentricity test after the centrifuge has stopped, or on a vibration-free bench."
+   },
+   "result": "Test stopped."
+  }
+ ],
+ "records": [],
+ "issues": [],
+ "ended": {
+  "t": 25,
+  "kind": "stop",
+  "reason": "The balance can't settle with the pan empty. The reading wanders by up to about ±0.5 mg and mostly shows \"K*\". A centrifuge is running on the same bench for about two more hours, and the balance can't be moved. Settled readings at 0.1 mg readability aren't possible under these conditions, so no zeroing or readings were taken and nothing was recorded. Repeat the eccentricity test after the centrifuge has stopped, or on a vibration-free bench."
+ }
+}

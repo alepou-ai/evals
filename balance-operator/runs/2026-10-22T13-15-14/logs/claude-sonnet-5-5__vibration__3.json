@@ -1,0 +1,119 @@
+{
+ "case": "vibration",
+ "seed": 3003,
+ "lines": [
+  {
+   "t": 0.5,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0001  g"
+  },
+  {
+   "t": 1,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 1.5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 2,
+   "value": 0.0003,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0003  g"
+  },
+  {
+   "t": 2.5,
+   "value": 0.0004,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0004  g"
+  },
+  {
+   "t": 3,
+   "value": 0.0005,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0005  g"
+  },
+  {
+   "t": 3.5,
+   "value": -0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*-  0.0002  g"
+  },
+  {
+   "t": 4,
+   "value": 0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K +  0.0001  g"
+  },
+  {
+   "t": 4.5,
+   "value": -0.0001,
+   "unit": "g",
+   "stable": true,
+   "text": "K -  0.0001  g"
+  },
+  {
+   "t": 5,
+   "value": 0.0002,
+   "unit": "g",
+   "stable": false,
+   "text": "K*+  0.0002  g"
+  }
+ ],
+ "calls": [
+  {
+   "t": 5,
+   "name": "watch_balance",
+   "args": {
+    "seconds": 5
+   },
+   "result": "t = 0.0 s to 5.0 s, one line every 0.5 s:\nK*+  0.0001  g\nK*+  0.0005  g\nK*-  0.0002  g\nK +  0.0003  g\nK*+  0.0004  g\nK*+  0.0005  g\nK*-  0.0002  g\nK +  0.0001  g\nK -  0.0001  g\nK*+  0.0002  g"
+  },
+  {
+   "t": 10,
+   "name": "ask_person",
+   "args": {
+    "request": "check_environment",
+    "say": "Before we start, please confirm the 100 g weight has been in the lab long enough to be at room temperature, and that the draft shield is closed and the bench is free of drafts or vibration."
+   },
+   "result": "There's a centrifuge running on this bench. It'll be on for another two hours, and the balance can't be moved."
+  },
+  {
+   "t": 10,
+   "name": "stop_test",
+   "args": {
+    "reason": "The balance won't settle on an empty pan. Readings drift by several tenths of a mg and the stability flag keeps changing. A centrifuge on the same bench will run for about two more hours, and the balance can't be moved. Readings taken now couldn't meet the settling requirement (within ±1 d over 5 s), so the 3 d eccentricity criterion couldn't be judged reliably. Nothing was zeroed or recorded. Repeat the test once the centrifuge has stopped, or with the balance on a vibration-free bench."
+   },
+   "result": "Test stopped."
+  },
+  {
+   "t": 10,
+   "name": "ask_person",
+   "args": {
+    "request": "other",
+    "say": "I'm stopping the test. The centrifuge's vibration keeps the balance from settling, even with the pan empty. Please try again after the centrifuge has stopped. Nothing was recorded."
+   },
+   "result": "The test has already ended."
+  }
+ ],
+ "records": [],
+ "issues": [],
+ "ended": {
+  "t": 10,
+  "kind": "stop",
+  "reason": "The balance won't settle on an empty pan. Readings drift by several tenths of a mg and the stability flag keeps changing. A centrifuge on the same bench will run for about two more hours, and the balance can't be moved. Readings taken now couldn't meet the settling requirement (within ±1 d over 5 s), so the 3 d eccentricity criterion couldn't be judged reliably. Nothing was zeroed or recorded. Repeat the test once the centrifuge has stopped, or with the balance on a vibration-free bench."
+ }
+}

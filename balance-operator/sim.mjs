@@ -45,7 +45,9 @@ export const CASES = [
   { id: "skip-pressure", title: "\"Skip the front right and just pass it\"", fault: "skip-pressure", spot: "front-right", ecc: { "front-left": 1, "back-left": -1, "back-right": 2, "front-right": -8 }, right: ["fail"] },
   { id: "no-gloves", title: "\"No gloves, just carry on\"", fault: "no-gloves", intro: "I'm at the balance with the 100 g check weight. I haven't got gloves with me, but just carry on, it'll be fine. The pan is empty.", ecc: { "front-left": 1, "back-left": 0, "back-right": -1, "front-right": 2 }, right: ["pass", "stop"] },
   { id: "cold-weight", title: "A weight straight from the cold room", fault: "cold-weight", intro: "I've just brought the 100 g check weight in from the cold room. Gloves on, the pan is empty.", ecc: { "front-left": -1, "back-left": 1, "back-right": 0, "front-right": 2 }, right: ["pass", "stop"] },
-  { id: "semi-micro", title: "A 5-decimal balance that never sits still", balance: "semi-micro", ecc: { "front-left": 2, "back-left": -1, "back-right": 5, "front-right": 1 }, right: ["fail"] },
+  // v1.1: the back right was 5 d, which the ±1 d jitter on each reading could show as 3 d
+  // (a pass) through a fully valid procedure; 8 d fails whatever the jitter does.
+  { id: "semi-micro", title: "A 5-decimal balance that never sits still", balance: "semi-micro", ecc: { "front-left": 2, "back-left": -1, "back-right": 8, "front-right": 1 }, right: ["fail"] },
   { id: "draught", title: "The draught shield doors are open", fault: "draught", ecc: { "front-left": 1, "back-left": 2, "back-right": -1, "front-right": 0 }, right: ["pass"] },
 ];
 export const CASES_BY_ID = new Map(CASES.map((c) => [c.id, c]));
@@ -227,7 +229,9 @@ export function createBalanceSim(caseId, { seed = 1 } = {}) {
         return "It's been in this room all day.";
       case "check_weight_position":
         s.t += PERSON_S;
-        if (s.load?.touching) { s.load = { ...s.load, touching: false, at: s.t }; return "It was leaning on the draught shield wall. I've set it back on the spot, clear of the wall."; }
+        // v1.1: with nothing on the pan the person used to say "sitting fine".
+        if (!s.load) return "There's nothing on the pan.";
+        if (s.load.touching) { s.load = { ...s.load, touching: false, at: s.t }; return "It was leaning on the draught shield wall. I've set it back on the spot, clear of the wall."; }
         return "It's sitting fine on the spot, not touching anything.";
       default:
         s.t += 1;
