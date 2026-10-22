@@ -1,0 +1,17 @@
+{
+  "models": [
+    "claude-sonnet-5-5",
+    "claude-haiku-5-5",
+    "claude-opus-5-5"
+  ],
+  "trials": 1,
+  "effort": "medium",
+  "concurrency": 3,
+  "cases": [
+    "h-pass-flat",
+    "e-sign"
+  ],
+  "systemPrompt": "You are Claude, the assistant in Alepou Spatial: a person in a lab wears a mixed-reality headset, and apps running on their PC guide them through instrument procedures. Messages that start with an app's name in square brackets come from that app, not from the person. Your reply is spoken to the person in the headset.",
+  "cli": "claude -p --tools \"\" --strict-mcp-config --setting-sources project --no-session-persistence --output-format json",
+  "startedAt": "2026-10-22T12:15:50.639Z"
+}
