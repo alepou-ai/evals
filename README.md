@@ -1,3 +1,5 @@
+> **Archived, 25 October 2026.** These evals asked Claude to check and to run a written procedure. A written procedure belongs in code, validated once, so the app now runs it in code. The follow-up eval measures what is left for the model, diagnosing why a balance reading won't settle with the person at the bench, against the manufacturers' troubleshooting checklist written as code: **[alepou-ai/bench-evals](https://github.com/alepou-ai/bench-evals)**. This repository stays as the record of the runs described in [Field Note 004](https://alepou.ai/field-notes#note-004).
+
 # Alepou evals
 
 These evals measure how Claude behaves in [Alepou Spatial](https://alepou.ai), where a person in a mixed-reality headset runs real lab instruments with Claude. Both evals here are about one instrument: an analytical balance and its eccentricity test (a 100 g weight in the centre and on each quarter of the pan).
